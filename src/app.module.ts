@@ -5,6 +5,10 @@ import { AboutModule } from './about/about.module';
 import { MongooseModule } from '@nestjs/mongoose';
 
 import { ConfigModule, ConfigService } from '@nestjs/config';
+import { AuthModule } from './auth/auth.module';
+import { ProductModule } from './product/product.module';
+import { ShopModule } from './shop/shop.module';
+import { MulterModule } from '@nestjs/platform-express';
 
 @Module({
   imports: [
@@ -19,7 +23,13 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
     }),
     inject: [ConfigService],
    }),
+    MulterModule.register({
+      dest: './media',
+    }),
     AboutModule,
+    AuthModule,
+    ProductModule,
+    ShopModule,
   ],
   controllers: [AppController],
   providers: [AppService],
