@@ -24,9 +24,14 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is  a system of points. This points can be changed by products.
+
+Clone from (*#"!%$, -) (@, /): 
+No*#"!%$Country@C8*#"!%$26*#"!%$T*#"!%$MEAN*#"!%$
 
 ## Installation
+
+First you need to copy .env.example file to .env file and changes its values.
 
 ```bash
 $ npm install
@@ -62,11 +67,6 @@ $ npm run test:cov
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
